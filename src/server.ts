@@ -10,8 +10,6 @@ app.use((req: Request, res: Response) => {
   res.send("Hello World");
 });
 
-app.use();
-
 app.get("/", (req, res) => {
   console.log("server on ✅");
 });
