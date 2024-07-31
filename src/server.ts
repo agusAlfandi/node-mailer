@@ -6,9 +6,9 @@ const port = 1840;
 app.use(express.json());
 app.use(cors());
 
-app.use((req: Request, res: Response) => {
-  res.send("Hello World");
-});
+// app.use((req: Request, res: Response) => {
+//   res.send("Hello World");
+// });
 
 app.get("/", (req, res) => {
   console.log("server on ✅");
